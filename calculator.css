@@ -1,0 +1,100 @@
+* {
+    font-family: "Courier New", Courier, monospace;
+}
+
+#display {
+    font-size: 2.5em;
+    font-weight: 700;
+    width: 350px;
+    height: 70px;
+    border: 8px solid rgb(67, 84, 66);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: rgb(173, 194, 172);
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    border: 7px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(75, 71, 71);
+}
+
+#buttons {
+    display: flex;
+    min-width: 350px;
+    height: 400px;
+}
+
+#clear { 
+    background-color: rgb(251, 103, 62);
+}
+
+#clear:hover {
+    background-color: rgb(240, 0, 0);
+}
+
+.number-btns {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.op-btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 70px;
+    height: 70px;
+    font-size: 1.5em;
+    font-weight: 900;
+    background-color: #d0cece;
+    color: #333;
+    padding: 4px 4px;
+    border-radius: 7px;
+    border: 9px solid rgb(145, 145, 145);
+}
+
+.button:hover {
+    cursor: pointer;
+    border: 9px solid rgb(125, 123, 123);
+    background-color: rgb(255, 255, 255);
+}
+
+.button:active {
+    border: 12px solid gray;
+    font-size: 1.3em;
+}
+
+.row {
+    display: flex;
+}
+
+.operator {
+    background-color: lightblue;
+}
+
+.operator:hover {
+    background-color: rgb(53, 217, 229);
+}
+
+#solve {
+    background-color: rgb(134, 231, 134);
+}
+
+#solve:hover {
+    background-color: rgb(37, 231, 37);
+}
